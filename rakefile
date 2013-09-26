@@ -9,7 +9,18 @@ end
 
 desc "construct README with installable bookmarklet"
 task :readme => :build do
-	puts "bookmarking"
+	bookmarklet = "javascript:#{File.read('gif-roulette.min.js')}"
+	File.write('README.md',
+<<-EOS
+### gif-roulette
+
+Replace every image on the page with a random pic from imgur.
+
+#### Installation instructions:
+
+Drag (this link)[#{bookmarklet}] to your toolbar. Then go to a page with some images and click it.
+EOS
+	)
 end
 
 task :default => :readme
