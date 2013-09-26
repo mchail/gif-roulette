@@ -20,9 +20,7 @@ Replace every image on the page with a random pic from imgur.
 
 Drag this block of text to your bookmarks toolbar:
 
-```javascript
-#{bookmarklet}
-```
+> #{bookmarklet}
 
 Now go to a [page with some images](http://www.google.com/images?q=mola+mola) and click the bookmarklet.
 
