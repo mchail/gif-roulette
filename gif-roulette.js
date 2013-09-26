@@ -19,7 +19,7 @@
 		xhReq.setRequestHeader('Authorization', 'Client-ID ' + clientId);
 		xhReq.send(null);
 		var serverResponse = xhReq.responseText;
-		callback(serverResponse); // Shows "15"
+		callback(serverResponse);
 	}
 
 	function handleImgurs(response) {
