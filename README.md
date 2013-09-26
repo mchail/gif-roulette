@@ -2,7 +2,7 @@
 
 Replace every image on the page with a random pic from imgur.
 
-#### Installation instructions:
+#### Installation
 
 Drag this block of text to your bookmarks toolbar:
 
