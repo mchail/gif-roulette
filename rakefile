@@ -1,0 +1,13 @@
+require 'uglifier'
+
+desc "minify and uglify the scripty script"
+task :build do
+	
+end
+
+desc "construct README with installable bookmarklet"
+task :readme => :build do
+	puts "bookmarking"
+end
+
+task :default => :readme

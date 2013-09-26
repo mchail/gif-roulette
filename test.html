@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+	<head>
+		<title>
+			Test environment for GIF Roulette
+		</title>
+		<script type="text/javascript">
+			function gifRoulette() {
+				var s = document.createElement('script');
+				s.src = './gif-roulette.js';
+				var base = document.getElementsByTagName('script')[0];
+				base.appendChild(s);
+			}
+		</script>
+		<style>
+		</style>
+	</head>
+	<body onload="gifRoulette()">
+		<img src="http://placehold.it/80x100" alt="">
+		<img src="http://placehold.it/720x400" alt="">
+		<img src="http://placehold.it/64x200" alt="">
+	</body>
+</html>
