@@ -18,7 +18,7 @@ Replace every image on the page with a random pic from imgur.
 
 #### Installation instructions:
 
-Drag [this link](#{bookmarklet}) to your toolbar. Then go to a page with some images and click it.
+Drag <a href='#{bookmarklet}'>this link</a> to your toolbar. Then go to a page with some images and click it.
 EOS
 	)
 end
