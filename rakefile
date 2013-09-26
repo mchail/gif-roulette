@@ -2,7 +2,9 @@ require 'uglifier'
 
 desc "minify and uglify the scripty script"
 task :build do
-	
+	src = File.read('gif-roulette.js')
+	uglified = Uglifier.compile(src)
+	dist = File.write('gif-roulette.min.js', uglified)
 end
 
 desc "construct README with installable bookmarklet"
