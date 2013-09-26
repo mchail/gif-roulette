@@ -11,3 +11,10 @@ javascript:!function(){function t(){i=document.getElementsByTagName("img"),u="e4
 ```
 
 Now go to a [page with some images](http://www.google.com/images?q=mola+mola) and click the bookmarklet.
+
+Give it a sec to pull in all the images. Click it again to pull in a new set.
+
+### Limitations
+
+- Only works with `img` tags. Does not support `background-image` or any other css properties.
+- Is only as awesome as your imagination.
