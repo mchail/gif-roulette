@@ -18,7 +18,13 @@ Replace every image on the page with a random pic from imgur.
 
 #### Installation instructions:
 
-Drag <a href='#{bookmarklet}'>this link</a> to your toolbar. Then go to a page with some images and click it.
+Drag this block of text to your bookmarks toolbar:
+
+```javascript
+#{bookmarklet}
+```
+
+Now go to a [page with some images](http://www.google.com/images?q=mola+mola) and click the bookmarklet.
 EOS
 	)
 end
