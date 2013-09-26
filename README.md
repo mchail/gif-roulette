@@ -12,7 +12,7 @@ Now go to a [page with some images](http://www.google.com/images?q=mola+mola) an
 
 Give it a sec to pull in all the images. Click it again to pull in a new set.
 
-### Limitations
+#### Limitations
 
 - Only works with `img` tags. Does not support `background-image` or any other css properties.
 - Is only as awesome as your imagination.
