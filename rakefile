@@ -9,7 +9,7 @@ end
 
 desc "construct README with installable bookmarklet"
 task :readme => :build do
-	bookmarklet = "javascript:#{File.read('gif-roulette.min.js')}"
+	bookmarklet = "javascript:#{File.read('gif-roulette.min.js')}undefined"
 	File.write('README.md',
 <<-EOS
 ### gif-roulette
